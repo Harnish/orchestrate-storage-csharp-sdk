@@ -65,7 +65,7 @@ namespace ApiSync
         static void DisplayUsage()
         {
             Console.WriteLine("Usage: apisync.exe path_to_sync");
-            Console.WriteLine("Example: apisync.exec C:\\my\\files\\");
+            Console.WriteLine("Example: apisync.exe C:\\my\\files\\");
         }
 
         static bool ValidateLogin(ApiClient client) {
